@@ -1,0 +1,62 @@
+{
+    "query": "SELECT DISTINCT * FROM animal\nORDER BY type ASC\nLIMIT 7\n",
+    "resultcount": 7,
+    "result": [
+        {
+            "id": 40,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 41,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 42,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 43,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 44,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        },
+        {
+            "id": 45,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 3
+        },
+        {
+            "id": 46,
+            "type": "Bear",
+            "speed": 5,
+            "defense": 8,
+            "loyalty": 0,
+            "owner": 0
+        }
+    ]
+}
