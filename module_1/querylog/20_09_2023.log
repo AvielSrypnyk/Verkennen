@@ -1,0 +1,292 @@
+SELECT * FROM creature; #09:17:54@rubyquest.db
+SELECT * FROM creature; #09:20:51@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:31@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:32@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:33@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:33@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:33@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:33@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:33@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:33@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:34@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:34@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:34@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:34@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:34@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND name='Orc'; #09:24:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND 'Orc'; #09:24:41@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND 'Orc'; #09:24:42@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' AND 'Orc'; #09:24:42@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:10@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:10@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:10@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:11@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:11@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:11@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:11@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:11@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:34@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:35@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:36@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:37@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:37@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:37@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:37@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:37@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:37@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:38@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:40@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:40@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:40@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:26:40@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:56@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:56@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:57@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:58@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:58@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:58@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:26:59@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:00@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:00@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:00@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:00@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:00@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:00@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:16@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:16@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:16@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:17@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:17@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:17@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:17@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:18@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:18@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:23@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:23@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:23@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR 'Orc'; #09:27:23@rubyquest.db
+SELECT * FROM creature
+WHERE name='Killer Bee' OR name='Orc'; #09:28:46@rubyquest.db
+SELECT * FROM animal
+WHERE speed=6 AND defense=5; #09:31:26@rubyquest.db
+SELECT COUNT(*) FROM animal
+
+; #09:36:45@rubyquest.db
+SELECT * FROM animal
+
+; #09:36:53@rubyquest.db
+SELECT COUNT(*) FROM animal
+WHERE type='Wolf' AND type='Bear' AND type='Eagle'
+; #09:38:23@rubyquest.db
+SELECT COUNT(*) FROM animal
+WHERE type='Wolf' OR type='Bear' OR type='Eagle'
+; #09:38:43@rubyquest.db
+SELECT COUNT(*) FROM animal
+WHERE type='Wolf' OR type='Bear' OR type='Eagle'
+; #09:38:49@rubyquest.db
+SELECT COUNT(*) FROM animal
+WHERE type='Wolf' OR type='Bear' OR type='Eagle'
+; #09:38:49@rubyquest.db
+SELECT COUNT(*) FROM animal
+WHERE type='Wolf' OR type='Bear' OR type='Eagle'
+; #09:38:49@rubyquest.db
+SELECT * FROM animal
+WHERE speed>0
+; #09:39:51@rubyquest.db
+SELECT * FROM animal
+
+; #09:41:42@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' DESC; #09:43:48@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed DESC 
+LIMIT 1; #09:45:12@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed ASC
+LIMIT 1; #09:46:15@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed DESC
+LIMIT 1; #09:46:51@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed DESC
+LIMIT 1; #09:46:52@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed DESC
+LIMIT 1; #09:46:52@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed DESC
+LIMIT 1; #09:46:52@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed DESC
+LIMIT 1; #09:46:52@rubyquest.db
+SELECT * FROM animal
+ORDER BY type='Tiger' AND speed DESC
+LIMIT 1; #09:46:52@rubyquest.db
+SELECT * FROM animal
+WHERE type='Tiger'
+ORDER BY  speed DESC
+LIMIT 1; #09:48:41@rubyquest.db
+SELECT * FROM animal
+; #09:50:35@rubyquest.db
+SELECT * FROM person
+; #09:50:59@rubyquest.db
+SELECT * FROM person
+WHERE attack=10 AND defense=10 AND agility=10
+; #09:51:53@rubyquest.db
+SELECT * FROM person
+WHERE NOT 30 AND 90
+; #09:54:37@rubyquest.db
+SELECT * FROM person
+WHERE NOT 30 AND 90
+; #09:54:43@rubyquest.db
+SELECT * FROM person
+WHERE NOT 30 AND 90
+; #09:54:43@rubyquest.db
+SELECT * FROM person
+WHERE NOT 30 AND 90
+; #09:54:43@rubyquest.db
+SELECT * FROM person
+WHERE NOT 30 AND 90
+; #09:54:44@rubyquest.db
+SELECT * FROM person
+WHERE NOT 30 AND 90
+; #09:54:44@rubyquest.db
+SELECT * FROM person
+; #09:56:18@rubyquest.db
+SELECT * FROM hero
+; #09:56:32@rubyquest.db
+SELECT * FROM hero
+WHERE NOT intelligence=30 OR intelligence=90; #09:56:59@rubyquest.db
+SELECT * FROM hero
+WHERE NOT intelligence=30 OR NOT intelligence=90; #09:57:14@rubyquest.db
+SELECT * FROM hero
+WHERE  intelligence=30 OR  intelligence=90; #09:57:26@rubyquest.db
+SELECT * FROM hero
+WHERE  intelligence!=30 OR  intelligence!=90; #09:57:41@rubyquest.db
+SELECT * FROM hero
+WHERE  intelligence=30 OR  intelligence=90; #09:58:21@rubyquest.db
+SELECT * FROM hero
+WHERE NOT intelligence=30 OR  intelligence=90; #09:58:30@rubyquest.db
+SELECT * FROM hero
+WHERE NOT intelligence=30 OR  intelligence=90; #09:58:56@rubyquest.db
+SELECT * FROM hero
+WHERE NOT  (intelligence=30 OR  intelligence=90); #10:01:57@rubyquest.db
+SELECT * FROM hero
+; #10:02:55@rubyquest.db
+SELECT * FROM hero
+WHERE NOT  (intelligence=30 OR  intelligence=90); #10:03:09@rubyquest.db
+SELECT * FROM weapon
+WHERE price BETWEEN 100 AND 1000; #10:07:21@rubyquest.db
+SELECT * FROM weapon
+WHERE attack BETWEEN 300 AND 600; #10:08:26@rubyquest.db
+SELECT * FROM animal
+WHERE defense BETWEEN 7 AND 9; #10:09:10@rubyquest.db

@@ -1,0 +1,5 @@
+{
+    "query": "SELECT * FROM person\nWHERE NOT 30 AND 90\n",
+    "resultcount": 0,
+    "result": []
+}
