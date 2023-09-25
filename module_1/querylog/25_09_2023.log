@@ -1,0 +1,12 @@
+SELECT * FROM person
+WHERE name LIKE 'a%'; #09:16:01@rubyquest.db
+SELECT * FROM person
+WHERE name LIKE 'b%'; #09:17:12@rubyquest.db
+SELECT * FROM animal
+WHERE type LIKE '%a%'; #09:18:05@rubyquest.db
+SELECT * FROM animal
+WHERE type LIKE '%e'; #09:18:49@rubyquest.db
+SELECT * FROM animal
+WHERE type LIKE '%ea'; #09:19:42@rubyquest.db
+SELECT * FROM weapon
+WHERE name LIKE '%d'; #09:21:55@rubyquest.db
