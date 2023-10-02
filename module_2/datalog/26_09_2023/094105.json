@@ -1,0 +1,9 @@
+{
+    "query": "SELECT  AVG(price) AND AVG(attack)\nFROM weapon\nWHERE name LIKE '%sword%'\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "AVG(price) AND AVG(attack)": 1
+        }
+    ]
+}

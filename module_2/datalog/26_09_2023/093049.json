@@ -1,0 +1,9 @@
+{
+    "query": "SELECT MAX(attack) FROM weapon\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "MAX(attack)": 6200
+        }
+    ]
+}

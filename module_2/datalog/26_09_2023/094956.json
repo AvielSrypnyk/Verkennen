@@ -1,0 +1,11 @@
+{
+    "query": "SELECT \n    COUNT(*) AS Aantal,\n    AVG(price) AS GemiddeldePrijs,\n    AVG(attack) AS GemiddeldeAanvalskracht\nFROM \n    weapon\nWHERE \n    name LIKE '%sword%';\n\n ",
+    "resultcount": 1,
+    "result": [
+        {
+            "Aantal": 5,
+            "GemiddeldePrijs": 884.0,
+            "GemiddeldeAanvalskracht": 1949.0
+        }
+    ]
+}

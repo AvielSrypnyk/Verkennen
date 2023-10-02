@@ -1,0 +1,161 @@
+SELECT * FROM npc
+; #09:09:14@rubyquest.db
+SELECT COUNT(id)
+FROM npc
+; #09:11:00@rubyquest.db
+SELECT COUNT(id)
+FROM animal
+; #09:11:34@rubyquest.db
+SELECT COUNT(id)
+FROM animal
+; #09:11:35@rubyquest.db
+SELECT COUNT(id)
+FROM animal
+; #09:11:35@rubyquest.db
+SELECT * FROM city
+
+; #09:12:23@rubyquest.db
+SELECT COUNT(id)
+FROM city
+
+; #09:13:10@rubyquest.db
+SELECT COUNT(type)
+FROM animal
+
+; #09:14:26@rubyquest.db
+SELECT COUNT(type)
+FROM animal
+WHERE type='sheep'
+
+; #09:15:35@rubyquest.db
+SELECT COUNT(type)
+FROM animal
+WHERE type='Sheep'
+
+; #09:15:48@rubyquest.db
+SELECT * FROM creature
+
+; #09:17:05@rubyquest.db
+SELECT * FROM animal
+
+
+; #09:17:33@rubyquest.db
+SELECT * FROM animal
+
+
+; #09:17:43@rubyquest.db
+SELECT * FROM animal
+
+
+; #09:17:45@rubyquest.db
+SELECT * FROM animal; #09:18:30@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:38@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:38@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:39@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:39@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:39@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:39@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:40@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:41@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:41@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:41@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:41@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:41@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:42@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:42@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:42@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:42@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:42@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:42@rubyquest.db
+SELECT COUNT(type)
+FROM animal 
+WHERE type='Sea Snake'; #09:19:42@rubyquest.db
+SELECT COUNT(type) FROM animal WHERE type='Sea Snake'; #09:20:59@rubyquest.db
+SELECT MIN(speed)
+FROM animal; #09:26:48@rubyquest.db
+SELECT MIN(speed) FROM animal
+; #09:29:34@rubyquest.db
+SELECT MAX(speed) FROM animal
+; #09:30:18@rubyquest.db
+SELECT MAX(attack) FROM weapon
+; #09:30:49@rubyquest.db
+SELECT MAX(price) FROM weapon
+; #09:31:10@rubyquest.db
+SELECT AVG(experience) FROM quest
+; #09:34:36@rubyquest.db
+SELECT SUM(gold) FROM quest
+; #09:35:37@rubyquest.db
+SELECT  AVG(price) AND AVG(attack)
+FROM weapon
+WHERE name LIKE '%sword%';
+; #09:40:13@rubyquest.db
+SELECT  AVG(price) AND AVG(attack)
+FROM weapon
+WHERE name LIKE '%sword%'
+; #09:41:04@rubyquest.db
+SELECT  AVG(price) AND AVG(attack)
+FROM weapon
+WHERE name LIKE '%sword%'
+; #09:41:04@rubyquest.db
+SELECT  AVG(price) AND AVG(attack)
+FROM weapon
+WHERE name LIKE '%sword%'
+; #09:41:04@rubyquest.db
+SELECT  AVG(price) AND AVG(attack)
+FROM weapon
+WHERE name LIKE '%sword%'
+; #09:41:05@rubyquest.db
+SELECT  COUNT('AVG(price) AND AVG(attack)')
+FROM weapon
+WHERE name LIKE '%sword%'
+; #09:45:40@rubyquest.db
+SELECT  COUNT('AVG(price)' AND 'AVG(attack)')
+FROM weapon
+WHERE name LIKE '%sword%'
+; #09:47:18@rubyquest.db
+SELECT 
+    COUNT(*) AS Aantal,
+    AVG(price) AS GemiddeldePrijs,
+    AVG(attack) AS GemiddeldeAanvalskracht
+FROM 
+    weapon
+WHERE 
+    name LIKE '%sword%';
+
+ ; #09:49:56@rubyquest.db
