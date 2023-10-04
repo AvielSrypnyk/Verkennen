@@ -1,0 +1,334 @@
+SELECT name 
+FROM city
+WHERE region IN(SELECT id FROM region WHERE name IN ('North Groval' , 'South Groval')); #09:34:43@rubyquest.db
+SELECT type
+FROM animal
+
+; #09:43:33@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:47:57@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:47:59@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:47:59@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:47:59@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:47:59@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:47:59@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:47:59@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:00@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:00@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:00@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:00@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:00@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:00@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:00@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:01@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:01@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:01@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:01@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:01@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:02@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:02@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:02@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:02@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM hero
+    WHERE type = 'Captain America'
+);
+
+; #09:48:03@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:48:53@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:48:54@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:48:54@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:48:54@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:48:54@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:48:54@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT type
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:48:54@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT name
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:49:02@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT name
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:49:02@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT name
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:49:02@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT name
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:49:03@rubyquest.db
+SELECT type
+FROM animal
+WHERE id = (
+    SELECT name
+    FROM person
+    WHERE type = 'Captain America'
+);
+
+; #09:49:03@rubyquest.db
+SELECT *
+FROM animal
+WHERE owner IN (SELECT id FROM person WHERE name == 'Captain America');; #09:52:14@rubyquest.db
