@@ -1,1 +1,11 @@
+body{
+    background-color: #000000;
+    color: whitesmoke;
+}
 
+h3{
+    color: yellow
+}
+header{
+    background-color: red;
+}
