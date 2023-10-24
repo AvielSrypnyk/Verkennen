@@ -1,0 +1,41 @@
+/** De stijl voor de classes en id's toegevoegd aan de elementen in snoepwinkel.html */
+.body{
+    background-color: black;
+}
+.green {
+    color: green;
+  }
+  
+  .orange {
+    color: orange;
+  }
+  
+  .blue {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .monospace {
+    font-family: monospace;
+  }
+  
+  .red-bg {
+    background-color: red;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  

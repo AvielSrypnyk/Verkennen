@@ -1,0 +1,43 @@
+h1 {
+    color: green;
+  }
+  
+  h2 {
+    color: orange;
+  }
+  
+  section h2 {
+    color: orange;
+  }
+  
+  header p {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  section p {
+    font-weight: bold;
+    color: blue;
+  }
+  body>p{
+    background-color: red;
+    color: yellow;
+    font-style: oblique;
+  }
+
+  section p + p {
+    font-style: italic;
+    color: yellow;
+  }
+  
+  p[paragraph="last"] {
+    font-family: monospace;
+    color: red;
+  }
+  
+  footer p {
+    color: red;
+    font-family: monospace;
+    text-decoration: underline;
+  }
+  

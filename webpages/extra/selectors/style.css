@@ -1,0 +1,9 @@
+section p{
+    background-color: blue;
+}
+div p:nth-of-type(2){
+    background-color: brown;
+}
+p.intro{
+    background-color: aqua;
+}

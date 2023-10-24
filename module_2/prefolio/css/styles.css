@@ -1,1 +1,21 @@
+body{
+    background-color: #333;
+    color: #edf0f5;
+    font-family: "Lucida Console", "Monaco", monospace;
+    outline: auto;
+}
 
+h3{
+    color: #637bad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    padding-bottom: 70px;
+    background-color: rgb(116, 255, 69);
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
