@@ -16,6 +16,17 @@ body {
     max-width: 850px;
     margin: 0 auto;
     padding: 20px;
+    
+}
+a {
+    color: #edf0f5; 
+    text-decoration: underline; 
+    font-weight: bold; 
+}
+
+a:hover {
+    color: aqua; 
+    text-decoration: none; 
 }
 
 header {
