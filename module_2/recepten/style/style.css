@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+header {
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+
+.subtext {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+ul,
+ol {
+    margin-bottom: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.Tip {
+    background-color: #def6ed;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 25px;
+    font-weight: 100;
+    
+    
+}
+span{
+    font-weight: bold;
+}
+.tiptext{
+    font-weight: bold;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
