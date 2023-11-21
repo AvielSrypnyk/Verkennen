@@ -108,3 +108,39 @@ footer {
         padding: 15px 0;
     }
 }
+
+
+section.projecten {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  
+  div.project {
+    padding: 20px; 
+    width: 16%; 
+    text-align: center; 
+    min-width: 190px; 
+  }
+  
+  p.logo {
+    height: 70px; 
+  }
+  
+  p.logo img {
+    min-width: 30px;
+    width: 30%; 
+  }
+  
+  p.language {
+    font-size: 1.4em;
+  } 
+  
+  p.title {
+    font-size: 1.6em; 
+    font-weight: bold; 
+  }
+  
+  p.description {
+    font-size: 1em; 
+    text-align: left; 
+  }
