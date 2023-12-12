@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <title>New Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Profile form</h1>
+  <form id="form_profile">
+    <p>
+      <label>Name: </label>
+      <input type="text" name="input_name" id="input_name">
+    </p>
+    <p>
+      <label>Email: </label>
+      <input type="email" name="input_email" id="input_email">
+    </p>
+    <p>
+      <label>Address: </label>
+      <input type="text" name="input_address" id="input_address">
+    </p>
+    <p>
+      <label>Zipcode: </label>
+      <input type="text" name="input_zipcode" id="input_zipcode">
+    </p>
+    <p>
+      <label>City: </label>
+      <input type="text" name="input_city" id="input_city">
+    </p>
+    <p>
+      <label>Years of Experience: </label>
+      <input type="number" name="input_years_experience" id="input_years_experience">
+    </p>
+    <p>
+      <label>Hobbies: </label>
+      <input type="number" name="input_age" id="input_age">
+    </p>
+    <input type="submit" id="submit_button" value="Submit">
+  </form>
+  <div id="profile">
+    <h1>Profile</h1>
+    <p><label>Name: </label><span id="display_name"></span></p>
+    <p><label>Email: </label><span id="display_email"></span></p>
+    <p><label>Address: </label><span id="display_address"></span></p>
+    <p><label>Zipcode: </label><span id="display_zipcode"></span></p>
+    <p><label>City: </label><span id="display_city"></span></p>
+    <p><label>Years of Experience: </label><span id="display_years_experience"></span></p>
+    <p><label>Hobbies: </label><span id="display_hobbies"></span></p>
+
+  </div>
+
+  <script>
+    function submit(event){
+      display_name.textContent = input_name.value;
+      display_email.textContent = input_email.value;
+      display_address.textContent = input_address.value;
+      display_zipcode.textContent = input_zipcode.value;
+      display_city.textContent = input_city.value;
+      display_years_experience.textContent = input_years_experience.value;
+      display_hobbies.textContent = input_hobbies.value;
+    }
+    submit_button.addEventListener('click', submit);
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form_profile.addEventListener('submit', form_submit);
+  </script>
+</body>
+</html>
