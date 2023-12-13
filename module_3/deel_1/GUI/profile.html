@@ -35,7 +35,17 @@
       <label>Hobbies: </label>
       <input type="number" name="input_age" id="input_age">
     </p>
+    <p>
+      <label>Hobbies: </label>
+      <textarea name="input_hobbies" rows=8 cols=50 id="input_hobbies">
+      </textarea>
+    </p>
+    <p>
+      <label>Birth date: </label>
+      <input type="date" name="input_date" id="input_date">
+    </p>
     <input type="submit" id="submit_button" value="Submit">
+    <input type="reset" id="reset_button" value="Reset">
   </form>
   <div id="profile">
     <h1>Profile</h1>
@@ -46,10 +56,23 @@
     <p><label>City: </label><span id="display_city"></span></p>
     <p><label>Years of Experience: </label><span id="display_years_experience"></span></p>
     <p><label>Hobbies: </label><span id="display_hobbies"></span></p>
+    <p><label>Date Birth: </label><span id="display_date"></span></p>
 
   </div>
 
   <script>
+    function reset(event){
+      display_name.textContent = "";
+      display_email.textContent = "";
+      display_address.textContent = "";
+      display_zipcode.textContent = "";
+      display_city.textContent = "";
+      display_years_experience.textContent = "";
+      display_hobbies.textContent = "";
+      display_date.textContent = "";
+    }
+    reset_button.addEventListener('click', reset);
+
     function submit(event){
       display_name.textContent = input_name.value;
       display_email.textContent = input_email.value;
@@ -58,6 +81,7 @@
       display_city.textContent = input_city.value;
       display_years_experience.textContent = input_years_experience.value;
       display_hobbies.textContent = input_hobbies.value;
+      display_date.textContent = input_date.value;
     }
     submit_button.addEventListener('click', submit);
 
@@ -65,6 +89,11 @@
     function form_submit(event){
       event.preventDefault();
     }
+
+    function reset_form() {
+      form_profile.reset();
+    }
+    reset_button.addEventListener('click', reset_form);
     form_profile.addEventListener('submit', form_submit);
   </script>
 </body>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>Feestlunch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Feestlunch</h1>
+  <form id="form">
+    <p>
+      <label>Hoeveel stokbroden? </label>
+      <input type="number" name="input_stokbroden" id="input_stokbroden">
+    </p>
+    <p>
+      <label>Hoeveel croissants? </label>
+      <input type="number" name="input_croissants" id="input_croissants">
+    </p>
+    <p>
+      <label>Hoeveel kortingsbonnen? </label>
+      <input type="number" name="input_kortings" id="input_kortings">
+    </p>
+    <input type="submit" id="submit_button" value="berekenen">
+  </form>
+  <div id="result">
+    <h1>************* KASSA BON *************</h1>
+    <p><label>Stokbroden: </label><span id="display_stokbroden"></span></p>
+    <p><label>Croissants: </label><span id="display_croissants"></span></p>
+    <p><label>Korting: </label><span id="display_kortings"></span></p>
+    <h1>------------------------------------------------------</h1>
+    <p><label>Te betalen:</label><span id="display_totaal"></span></p>
+  </div>
+
+  <script>
+function submit(event){
+
+    let Stokbroden = 0.49
+    let Croissants = 1.92
+    let Kortingsbonnen = 0.25
+
+    let totaal_Stokbroden = input_stokbroden.value * Stokbroden;
+    let totaal_Croissants = input_croissants.value * Croissants;
+    let totaal_Kortingsbonnen = input_kortings.value * Kortingsbonnen;
+    let teBetalen = totaal_Stokbroden + totaal_Croissants - totaal_Kortingsbonnen;
+
+    console.log(totaal_Croissants , teBetalen , totaal_Stokbroden , totaal_Kortingsbonnen);
+
+      display_stokbroden.textContent = input_stokbroden.value + " x €" + Stokbroden + " x €" + totaal_Stokbroden.toFixed(2);
+      display_croissants.textContent = input_croissants.value + " x €" + Croissants + " x €" + totaal_Croissants.toFixed(2);
+      display_kortings.textContent = input_kortings.value + " x €" + Kortingsbonnen + " x €" + totaal_Kortingsbonnen.toFixed(2);
+      display_totaal.textContent = teBetalen.toFixed(2);
+    }
+    submit_button.addEventListener('click',submit); 
+
+    // prevent document from default trying to really submit
+    function form_submit(event){
+      event.preventDefault();
+    }
+    form.addEventListener('submit',form_submit)
+
+  </script>
+</body>
+</html>
